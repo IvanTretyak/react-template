@@ -6,8 +6,10 @@ function App() {
   //   else return 'goodbye from function';
   // }
   const people = { firstName: 'Vasya', age: 32, gender: 'men' };
+  const dog = { nickName: 'Bobik', age: 11 };
   const style = { backgroundColor: 'yellow' };
   const array = ['left', 'right', 'top'];
+  console.log(dog);
   return (
     <>
       <div style={style}>
