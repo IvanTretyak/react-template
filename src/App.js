@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import UserInfo from './components/userInfo';
 
 function App() {
+  // function compare(a, b) {
+  //   if (a < b) return 'hello from function';
+  //   else return 'goodbye from function';
+  // }
+  const people = { firstName: 'Petya', age: 34, gender: 'men' };
+  const style = { backgroundColor: 'red' };
+  const array = ['left', 'right', 'top', 'bottom'];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style={style}>
+        {array.map((item, index) => (
+          <div key={index}>{item}</div>
+        ))}
+        <UserInfo data={people} />
+      </div>
+    </>
   );
 }
-
 export default App;
