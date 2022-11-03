@@ -7,7 +7,9 @@ function App() {
   // }
   const people = { firstName: 'Petya', age: 34, gender: 'men' };
   const style = { backgroundColor: 'red' };
+  const cat = { nickname: 'Vasya', age: 5 };
   const array = ['left', 'right', 'top'];
+  console.log(cat);
   return (
     <>
       <div style={style}>
