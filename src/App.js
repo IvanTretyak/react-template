@@ -5,8 +5,8 @@ function App() {
   //   if (a < b) return 'hello from function';
   //   else return 'goodbye from function';
   // }
-  const people = { firstName: 'Petya', age: 34, gender: 'men' };
-  const style = { backgroundColor: 'red' };
+  const people = { firstName: 'Vasya', age: 32, gender: 'men' };
+  const style = { backgroundColor: 'yellow' };
   const array = ['left', 'right', 'top'];
   return (
     <>
