@@ -5,10 +5,6 @@ function App() {
   //   if (a < b) return 'hello from function';
   //   else return 'goodbye from function';
   // }
-  const dog = { nickName: 'Bobik', age: 11 };
-  const people = { firstName: 'Petya', age: 34, gender: 'men' };
-  const style = { backgroundColor: 'red' };
-  const cat = { nickname: 'Vasya', age: 5 };
   const array = ['left', 'right', 'top'];
   console.log(cat);
   console.log(dog);
